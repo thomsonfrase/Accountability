@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Accountability " language="en" table="x_304228_accountab_accountability">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Accountability </label>
+            <language>en</language>
+            <name>x_304228_accountab_accountability</name>
+            <plural>Accountability s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-01 15:41:04</sys_created_on>
+            <sys_id>3aecc32cdbf22300313d9b81ca961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accountability</sys_name>
+            <sys_package display_value="Accountability" source="x_304228_accountab">e18bcfe0dbb22300313d9b81ca961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Accountability">e18bcfe0dbb22300313d9b81ca961975</sys_scope>
+            <sys_update_name>sys_documentation_x_304228_accountab_accountability__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-01 15:41:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

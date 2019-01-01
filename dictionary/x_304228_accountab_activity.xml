@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Activity" max_length="40" name="x_304228_accountab_activity" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ECPS" sequence="0" value="ecps"/>
+                <element inactive_on_update="false" label="Work" sequence="1" value="work"/>
+                <element inactive_on_update="false" label="Exercise" sequence="2" value="exercise"/>
+                <element inactive_on_update="false" label="Cooking" sequence="3" value="cooking"/>
+                <element inactive_on_update="false" label="Eating" sequence="4" value="eating"/>
+                <element inactive_on_update="false" label="Cleaning" sequence="5" value="cleaning"/>
+                <element inactive_on_update="false" label="Yoga" sequence="6" value="yoga"/>
+                <element inactive_on_update="false" label="Meditation" sequence="7" value="meditation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Client" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="ING" sequence="1" value="ing"/>
+                <element inactive_on_update="false" label="APG" sequence="2" value="apg"/>
+            </choice>
+        </element>
+        <element label="Duration" max_length="40" name="u_glide_duration_1" type="glide_duration"/>
+        <element label="Comments" mandatory="true" max_length="65536" name="u_html_8" type="html"/>
+        <element label="Wins" max_length="40" name="u_integer_4" type="integer"/>
+        <element label="Losses" max_length="40" name="u_integer_5" type="integer"/>
+        <element label="Accountability" max_length="32" name="u_reference_7" reference="x_304228_accountab_accountability" type="reference"/>
+        <index name="index">
+            <element name="u_reference_7"/>
+        </index>
+    </element>
+</database>

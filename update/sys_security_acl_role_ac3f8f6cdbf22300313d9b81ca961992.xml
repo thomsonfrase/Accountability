@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-01 15:51:02</sys_created_on>
+        <sys_id>ac3f8f6cdbf22300313d9b81ca961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_304228_accountab_activity.x_304228_accountab.activity_user</sys_name>
+        <sys_package display_value="Accountability" source="x_304228_accountab">e18bcfe0dbb22300313d9b81ca961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Accountability">e18bcfe0dbb22300313d9b81ca961975</sys_scope>
+        <sys_security_acl display_value="x_304228_accountab_activity">243f8f6cdbf22300313d9b81ca961990</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ac3f8f6cdbf22300313d9b81ca961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-01 15:51:02</sys_updated_on>
+        <sys_user_role display_value="x_304228_accountab.activity_user" name="x_304228_accountab.activity_user">ec3fc72cdbf22300313d9b81ca96194c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
