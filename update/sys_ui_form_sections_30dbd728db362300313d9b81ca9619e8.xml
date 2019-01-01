@@ -10,23 +10,23 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_304228_accountab_accountability" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">30dbd728db362300313d9b81ca9619e8</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">2dee8b6cdbf22300313d9b81ca96193e</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">2dee8b6cdbf22300313d9b81ca96193e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-01-01 16:46:12</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-01 16:46:12</sys_created_on>
+            <sys_created_on>2019-01-01 16:49:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b0dbd728db362300313d9b81ca9619eb</sys_id>
+            <sys_id>927c9368db362300313d9b81ca961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_304228_accountab_accountability" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">30dbd728db362300313d9b81ca9619e8</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">bcdbd728db362300313d9b81ca9619e6</sys_ui_section>
+            <sys_ui_section caption="Captain's Log" display_value="Captain's Log" name="x_304228_accountab_accountability" sys_domain="global" view="Default view">1e7c9368db362300313d9b81ca96192f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-01 16:46:12</sys_updated_on>
+            <sys_updated_on>2019-01-01 16:49:02</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_304228_accountab_accountability</name>

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Accountability " max_length="40" name="x_304228_accountab_accountability" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_choice_4" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element inactive_on_update="false" label="Work Day" sequence="0" value="work day"/>
                 <element inactive_on_update="false" label="Weekend" sequence="1" value="weekend"/>
-                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Annual Leave" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="National Holiday" sequence="3" value="national holiday"/>
+                <element inactive_on_update="false" label="Sick" sequence="4" value="sick"/>
             </choice>
         </element>
-        <element label="Arrival" mandatory="true" max_length="40" name="u_glide_time_1" type="glide_time"/>
-        <element label="Departure" mandatory="true" max_length="40" name="u_glide_time_2" type="glide_time"/>
+        <element display="true" label="Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="Arrival" max_length="40" name="u_glide_time_1" type="glide_time"/>
+        <element label="Departure" max_length="40" name="u_glide_time_2" type="glide_time"/>
         <element label="Comments" max_length="65536" name="u_html_1" type="html"/>
         <element label="Captain's Log" mandatory="true" max_length="65536" name="u_html_6" type="html"/>
-        <element label="Spending" mandatory="true" max_length="40" name="u_integer_3" type="integer"/>
-        <element label="Meals Eaten" mandatory="true" max_length="40" name="u_integer_7" type="integer"/>
+        <element label="Spending" max_length="40" name="u_integer_3" type="integer"/>
+        <element label="Meals Eaten" max_length="40" name="u_integer_7" type="integer"/>
     </element>
 </database>

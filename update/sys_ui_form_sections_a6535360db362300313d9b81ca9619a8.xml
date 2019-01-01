@@ -6,27 +6,27 @@
             <sys_created_on>2019-01-01 16:09:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ee535360db362300313d9b81ca9619a8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_304228_accountab_activity" name="x_304228_accountab_activity" sys_domain="global" view="Default view">a6535360db362300313d9b81ca9619a8</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_304228_accountab_activity" sys_domain="global" view="Default view">3b2193ecdbf22300313d9b81ca96192e</sys_ui_section>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-01-01 16:09:11</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-01-01 16:09:11</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>aa535360db362300313d9b81ca9619a9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_304228_accountab_activity" name="x_304228_accountab_activity" sys_domain="global" view="Default view">a6535360db362300313d9b81ca9619a8</sys_ui_form>
             <sys_ui_section caption="NULL" display_value="" name="x_304228_accountab_activity" sys_domain="global" view="Default view">544f03acdbf22300313d9b81ca96194b</sys_ui_section>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-01-01 16:09:11</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-01 16:59:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-01 16:59:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbcedfa8db362300313d9b81ca96191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_304228_accountab_activity" name="x_304228_accountab_activity" sys_domain="global" view="Default view">a6535360db362300313d9b81ca9619a8</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_304228_accountab_activity" sys_domain="global" view="Default view">37ce9fa8db362300313d9b81ca961988</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-01 16:59:15</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_304228_accountab_activity</name>
