@@ -9,6 +9,7 @@
         </element>
         <element label="Arrival" mandatory="true" max_length="40" name="u_glide_time_1" type="glide_time"/>
         <element label="Departure" mandatory="true" max_length="40" name="u_glide_time_2" type="glide_time"/>
+        <element label="Comments" max_length="65536" name="u_html_1" type="html"/>
         <element label="Captain's Log" mandatory="true" max_length="65536" name="u_html_6" type="html"/>
         <element label="Spending" mandatory="true" max_length="40" name="u_integer_3" type="integer"/>
         <element label="Meals Eaten" mandatory="true" max_length="40" name="u_integer_7" type="integer"/>

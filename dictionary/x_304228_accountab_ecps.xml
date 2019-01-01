@@ -1,3 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="ECPS" max_length="40" name="x_304228_accountab_ecps" type="collection"/>
+    <element label="ECPS" max_length="40" name="x_304228_accountab_ecps" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Outcome" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Win" sequence="0" value="win"/>
+                <element inactive_on_update="false" label="Lose" sequence="1" value="lose"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Adversary" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Akuma" sequence="0" value="akuma"/>
+                <element inactive_on_update="false" label="Ryu" sequence="1" value="ryu"/>
+                <element inactive_on_update="false" label="Ken" sequence="2" value="ken"/>
+                <element inactive_on_update="false" label="Dhalsim" sequence="3" value="dhalsim"/>
+                <element inactive_on_update="false" label="Ibuki" sequence="4" value="ibuki"/>
+                <element inactive_on_update="false" label="Chun Li" sequence="5" value="chun li"/>
+                <element inactive_on_update="false" label="Birdie" sequence="6" value="birdie"/>
+                <element inactive_on_update="false" label="M. Bison" sequence="7" value="m. bison"/>
+                <element inactive_on_update="false" label="Balrog" sequence="8" value="balrog"/>
+                <element inactive_on_update="false" label="Ed" sequence="9" value="ed"/>
+                <element inactive_on_update="false" label="Vega" sequence="10" value="vega"/>
+                <element inactive_on_update="false" label="Fang" sequence="11" value="fang"/>
+                <element inactive_on_update="false" label="Kage" sequence="12" value="kage"/>
+                <element inactive_on_update="false" label="Alex" sequence="13" value="alex"/>
+                <element inactive_on_update="false" label="Juri" sequence="14" value="juri"/>
+                <element inactive_on_update="false" label="Laura" sequence="15" value="laura"/>
+                <element inactive_on_update="false" label="Karin" sequence="16" value="karin"/>
+                <element inactive_on_update="false" label="Abigail" sequence="17" value="abigail"/>
+                <element inactive_on_update="false" label="Zangief" sequence="18" value="zangief"/>
+                <element inactive_on_update="false" label="Falke" sequence="19" value="falke"/>
+                <element inactive_on_update="false" label="Zeku" sequence="20" value="zeku"/>
+                <element inactive_on_update="false" label="Blanka" sequence="21" value="blanka"/>
+                <element inactive_on_update="false" label="Rashid" sequence="22" value="rashid"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="65536" name="u_html_4" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Activity" max_length="32" name="u_reference_5" reference="x_304228_accountab_activity" type="reference"/>
+        <index name="index">
+            <element name="u_reference_5"/>
+        </index>
+    </element>
 </database>
